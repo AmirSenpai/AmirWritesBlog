@@ -1,73 +1,94 @@
 /* Basic Reset */
+@import url("https://fonts.googleapis.com/css2?family=Vazir&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Page Background */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;  /* Light background color */
-    color: #333;                /* Dark text color for contrast */
-    padding: 20px;
-  }
-  
-  /* Content Section */
-  #content {
-    max-width: 800px;
-    margin: 0 auto;  /* Center the content */
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Light shadow */
-  }
-  
-  /* Main Heading */
-  h1 {
-    text-align: center;
-    font-size: 3rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Article (Post) Style */
-  article {
-    margin-bottom: 40px;
-  }
-  
-  /* Post Title */
-  article h2 {
-    font-size: 2rem;
-    color: #222;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #eaeaea;  /* Subtle border under title */
-    padding-bottom: 8px;
-  }
-  
-  /* Paragraphs */
-  article p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #555;  /* Slightly lighter text color */
-    margin-bottom: 20px;
-  }
-  
-  /* Links */
-  article a {
-    color: #0077cc;
-    text-decoration: none;
-  }
-  
-  article a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #777;
-    margin-top: 40px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Background */
+body {
+  font-family: "Vazir", sans-serif; /* You can use a Persian font like Vazir */
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Content Section */
+#content {
+  max-width: 800px;
+  margin: 0 auto; /* Center the content */
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Article (Post) Style */
+article {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Post Title */
+article h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eaeaea; /* Subtle border under title */
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+/* Paragraphs */
+article p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555; /* Slightly lighter text color */
+  margin-bottom: 20px;
+}
+
+article hr {
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Links */
+article a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 40px;
+}

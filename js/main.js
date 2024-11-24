@@ -27,7 +27,7 @@ async function loadPosts() {
         // Convert the remaining markdown to HTML
         const htmlContent = renderMarkdown(markdownWithoutTitle);
   
-        return { url, html: htmlContent, title };
+        return { url, html: htmlContent, title};
       });
   
       const postContents = await Promise.all(postPromises);
